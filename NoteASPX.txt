@@ -1,0 +1,5 @@
+- Format Date Client;
+Thread.CurrentThread.CurrentCulture = new CultureInfo("en-GB");
+
+- modals with Button
+UseSubmitBehavior="false" OnClientClick="return"

@@ -1,0 +1,260 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.panel_DCD {
+    position: relative;
+    margin: 1cm;
+}
+
+.logo1 {
+    position: absolute;
+    z-index: 2;
+    height: 1.8cm;
+    top: 18px;
+    left: 18px;
+    width: 82px;
+}
+
+.logo2 {
+    position: absolute;
+    z-index: 2;
+    height: 1.8cm;
+    top: 16px;
+    left: 631px;
+    width: 70px;
+}
+
+#lbl_title1 {
+    position: absolute;
+    z-index: 2;
+    top: 19px;
+    left: 247px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #FF0000;
+}
+
+#lbl_title2 {
+    position: absolute;
+    z-index: 2;
+    top: 41px;
+    left: 240px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0000FF;
+}
+
+.hr_head {
+    position: absolute;
+    z-index: 2;
+    top: 59px;
+    left: 246px;
+    width: 247px;
+    height: -12px;
+}
+
+#lbl_DNCN_title3 {
+    position: absolute;
+    z-index: 2;
+    top: 88px;
+    left: 210px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0000FF;
+}
+
+#lbl_DCD_title3 {
+    position: absolute;
+    z-index: 2;
+    top: 85px;
+    left: 235px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0000FF;
+}
+
+#lbl_heading1 {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#lbl_heading2 {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#lbl_xuatxu {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqxuatxu {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_ngaylaymau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqngaylaymau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_ngaynhanmau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqngaynhanmau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_ngaythumau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqngaythumau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_lydothinghiem {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqlydothinghiem {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_phutrachlaymau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqphutrachlaymau {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_ghichu {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_kqghichu {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+
+#lbl_heading3 {
+    position: absolute;
+    z-index: 2;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.hr_foot {
+    position: absolute;
+    z-index: 2;
+    top: 966px;
+    left: 10px;
+    width: 696px;
+    color: #000000;
+}
+
+#lbl_address {
+    position: absolute;
+    z-index: 2;
+}
+
+#lbl_tel {
+    position: absolute;
+    z-index: 2;
+}
+
+#lbl_http {
+    position: absolute;
+    z-index: 2;
+}
+
+#lbl_email {
+    position: absolute;
+    z-index: 2;
+}
+
+#div_table {
+    position: absolute;
+    z-index: 2;
+}
+
+#div_Table {
+    position: absolute;
+    z-index: 2;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    padding: 2px 5px;
+}
+
+th {
+    font-size: 13px;
+}
+#lbl_DCD_title4 {
+    position: absolute;
+    z-index: 2;
+    font-size: 14px;
+    color: #0000FF;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+}
